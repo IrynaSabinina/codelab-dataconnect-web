@@ -20,16 +20,16 @@ import {
   connectDataConnectEmulator,
   getDataConnect,
 } from "firebase/data-connect";
-import { connectorConfig } from '@movie/dataconnect';
+import { connectorConfig } from "@movie/dataconnect";
 import { createContext } from "react";
 
 const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "PROJECT_ID.firebaseapp.com",
-  projectId: "PROJECT_ID",
-  storageBucket: "PROJECT_ID.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyALn8cl1YfitpkztD9IEMoFQke5j47yAIc",
+  authDomain: "ai-codelab-test1.firebaseapp.com",
+  projectId: "ai-codelab-test1",
+  storageBucket: "ai-codelab-test1.firebasestorage.app",
+  messagingSenderId: "589052657500",
+  appId: "1:589052657500:web:dd47ddf881851402710b99",
 };
 
 const firebaseApp =

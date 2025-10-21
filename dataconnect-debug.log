@@ -1,0 +1,24 @@
+I0908 15:50:40.702350    8002 load.go:31] Reloading schema and connectors...
+I0908 15:50:40.801821    8002 control.go:94] [/emulator/your-service-id 7dc1] UpdateResources(): done
+Schema: sources: schema/schema.gql [3496B] 
+Connector "movie-connector": sources: movie-connector/queries.gql [7420B] movie-connector/mutations.gql [3159B] 
+I0908 15:50:40.845790    8002 codegen.go:82] [connector "movie-connector" javascriptSdk] Generating sources into "/Users/sabinina/GOGL-FDOC/CODELABS/codelab-audit/codelab-dataconnect-web/app/src/lib/dataconnect-sdk"
+I0908 15:50:40.862653    8002 collector.go:107] schema extensions wrote into "/Users/sabinina/GOGL-FDOC/CODELABS/codelab-audit/codelab-dataconnect-web/dataconnect/.dataconnect/schema"
+Generated sources: main/query.gql [9877B] main/mutation.gql [23905B] prelude.gql [73251B] main/implicit.gql [2031B] main/input.gql [47623B] main/relation.gql [26341B] 
+I0908 15:50:40.864941    8002 collector.go:107] connector "movie-connector" javascriptSdk wrote into "/Users/sabinina/GOGL-FDOC/CODELABS/codelab-audit/codelab-dataconnect-web/app/src/lib/dataconnect-sdk"
+Generated sources: index.cjs.js [6101B] package.json [641B] README.md [61376B] index.d.ts [14520B] esm/index.esm.js [5274B] esm/package.json [17B] 
+I0908 15:50:40.866486    8002 installsdk.go:55] Package @movie/dataconnect is already installed. Skipping installation
+I0908 15:50:40.866559    8002 load.go:109] Finished reloading
+I0908 15:50:40.869216    8002 dev.go:102] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0908 15:50:40.870109    8002 dev.go:102] Listening on address (HTTP + gRPC): [::1]:9399
+I0908 15:50:42.975456    8002 control.go:94] [/emulator/your-service-id 72d5] UpdateResources(): done
+Schema: sources: schema/schema.gql [3496B] 
+Connector "movie-connector": sources: movie-connector/mutations.gql [3159B] movie-connector/queries.gql [7420B] 
+I0908 15:53:45.722427    8002 prepare.go:129] [operation "ListMovies" attempt 1] preparePlan succeeded
+I0908 15:53:45.722540    8002 prepare.go:120] [operation "ListMovies" attempt 1] DBStats beforePrepare: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterPrepare: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0908 15:53:45.733216    8002 executor.go:90] [operation "ListMovies" attempt 1] DBStats beforeRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0908 15:53:45.733501    8002 engine.go:171] [/emulator/your-service-id 72d5] ExecuteGraphql ListMovies: succeeded. 
+I0908 15:54:53.538412    8002 executor.go:90] [operation "ListMovies" attempt 1] DBStats beforeRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0908 15:54:53.538541    8002 engine.go:171] [/emulator/your-service-id 72d5] ExecuteGraphql ListMovies: succeeded. 
+I0908 15:55:52.679238    8002 executor.go:90] [operation "ListMovies" attempt 1] DBStats beforeRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}, afterRun: sql.DBStats{MaxOpenConnections:1, OpenConnections:1, InUse:0, Idle:1, WaitCount:0, WaitDuration:0, MaxIdleClosed:0, MaxIdleTimeClosed:0, MaxLifetimeClosed:0}
+I0908 15:55:52.679379    8002 engine.go:171] [/emulator/your-service-id 72d5] ExecuteGraphql ListMovies: succeeded. 
